@@ -1,7 +1,7 @@
 {
   "name": "dbl-click-select-inside-brackets",
   "main": "./lib/dbl-click-select-inside-brackets",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Select inside brackets (normally done with ctrl-cmd-m) by double-clicking the opening bracket character.",
   "keywords": [
   ],
