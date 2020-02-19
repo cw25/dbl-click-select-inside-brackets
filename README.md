@@ -1,11 +1,9 @@
 # dbl-click-select-inside-brackets package
 
-Lots of code editors ship with an option to double-click a brace/bracket/paren (collectively called "brackets" here), which selects everything up to its closing bracket.
+Lots of code editors include the ability to select everything inside a matched pair of opening and closing brackets by double-clicking the opening or closing bracket.
 
-Atom currently can do this via the ctrl-cmd-m key combination and "Select Inside Brackets" menu option (provided by the excellent [bracket-matcher](https://atom.io/packages/bracket-matcher) package), but I missed the double-click so much that I wrote a plugin to add it.
+Atom has the excellent [bracket-matcher](https://atom.io/packages/bracket-matcher) package, which allows you to do this with the ctrl-cmd-m key combination, but I missed the double-click so much that I wrote a plugin to add it.
 
-This package currently only supports double-click on the _opening_ bracket. I hope to add support for double-clicks on closing brackets in the very near future.
-
-Currently supports these "bracket" characters: (, [, <, and { 
+This package currently supports these bracket characters: () [] <> {} 
 
 Enjoy!
